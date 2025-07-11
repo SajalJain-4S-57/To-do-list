@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <div class="stats-title">
+                    <img src="./image/search.png" alt="Search Icon" width="30" height="30">
+                    <h2>To-Do-List</h2>
+                </div>
+                <p>Mark your Progress</p>
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <p id="numbers">0/0</p>
+            </div>
+        </div>
+        <form action="">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button type="submit" id="add-task-button">+</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <div id="toast">🎉 All tasks completed!</div>
+    <script src="script.js"></script>
+</body>
+</html>
